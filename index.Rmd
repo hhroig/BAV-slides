@@ -221,7 +221,7 @@ knitr::include_graphics("my_images/drake-ggplot.jfif")
 * `dbl`: números reales o en doble precisión (*doubles*)
 * `chr`: vectores o cadenas de caracteres (*strings*)
 * `lgl`: vectores lógicos o "booleanos" (*boolean*) que solo contienen `TRUE` o `FALSE` 
-* `fctr`: categóricas o "factores" con nivels fijos (*factors*)
+* `fctr`: categóricas o "factores" con niveles fijos (*factors*)
 * `date`: fechas (*dates*) 
 
 ---
@@ -1064,7 +1064,7 @@ Tomado de [r4ds](https://r4ds.had.co.nz/index.html).
 
 --
 
-* `$` es un atajo para extrar elementos con nombre de una lista. Funciona igual que `[[`, sin tener que usar las comillas: `[["var_name"]]`.
+* `$` es un atajo para extraer elementos con nombre de una lista. Funciona igual que `[[`, sin tener que usar las comillas: `[["var_name"]]`.
 
 
 ---
@@ -1347,7 +1347,7 @@ challenge <- read_csv(url_vacunas)
 
 1. Mira lo que pasa con los nombres de columnas en ambos casos.
 2. Intenta arreglar los problemas, presta atención a los signos de agrupación.
-3. Salva tus datos "limpios" de la forma que consideres más apropriada.
+3. Salva tus datos "limpios" de la forma que consideres más apropiada.
 
 ---
 
@@ -1829,7 +1829,7 @@ x <- if (y < 20) "Too low" else "Too high"
 
 --
 
-* ### Otro my útil: `ifelse(test, yes, no)`
+* ### Otro muy útil: `ifelse(test, yes, no)`
 
 ---
 
@@ -2176,11 +2176,11 @@ col_summary(df, mean)
 
 --
 
-* map() hace una list.
-* map_lgl() hace un vector tipo *logical*.
-* map_int() hace un vector de enteros.
-* map_dbl() hace un vector de *doubles*.
-* map_chr() hace un vector de caracteres.
+* map() devuelve una lista.
+* map_lgl() devuelve un vector tipo *logical*.
+* map_int() devuelve un vector de enteros.
+* map_dbl() devuelve un vector de *doubles*.
+* map_chr() devuelve un vector de caracteres.
 
 --
 
