@@ -871,7 +871,7 @@ df %>% .[["x"]]
 
 --
 
-* Si alguna método no te funciona con los tibbles:
+* Si algún método no te funciona con los tibbles:
 
 ```{r ej:tibble2df}
 tb_2_df <- as.data.frame(df)
@@ -1765,7 +1765,7 @@ plot_vacunas <- function(datos, provincia, municipio){
 
 ### Ejercicio:
 
-Crear una función que calcule la varianza ($\mathbb{V}$) de un vector `x`:
+Crear una función que calcule la varianza de un vector `x`:
 
 $$ \mathbb{V}(x) = \frac{1}{n-1} \sum_i^n (x_i - \bar x)^2, $$
 donde $\bar x = 1/n \sum_i x_i$ y otra que calcule el [coeficiente de asimetría](https://en.wikipedia.org/wiki/Skewness) (*skewness*):
