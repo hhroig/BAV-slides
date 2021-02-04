@@ -57,7 +57,7 @@ class: inverse, center, middle
 # 1. *Hello wo**R**ld*
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 
 ```{r fig:cover-r4ds, echo = FALSE, out.width = "30%", fig.align='center'}
@@ -68,7 +68,7 @@ r4ds **gratis** en: <https://r4ds.had.co.nz/index.html>.
 ]
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Necesitaremos:
 * **R** (descargar en [CRAN](https://cloud.r-project.org/))
@@ -102,7 +102,7 @@ library(tidyverse)
 
 ---
 
-# Hello woRld
+# 1. Hello woRld
 
 ### **R** como calculadora:
 
@@ -123,14 +123,14 @@ x
 
 ---
 
-# Hello woRld
+# 1. Hello woRld
 
 ```{r fig:meme-asigna,echo = FALSE, out.width = "60%", fig.align='center'}
 knitr::include_graphics("my_images/assignment.jpg")
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones propias (*built-in*):
 
@@ -148,7 +148,7 @@ y[1:3]
 * O usando las *Cheatsheets* de RStudio! <https://rstudio.com/resources/cheatsheets/>
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Ya estamos listos para empezar a programar :)
 
@@ -161,7 +161,7 @@ y[1:3]
  + Ahora, creamos un nuevo script "*plots_mpg.R*" y a programar!
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### La gramática estratificada de `ggplot`:
 
@@ -187,7 +187,7 @@ ggplot(data = <DATA>) +
 #### Pasamos al **Notebook de Visualización**
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### La gramática estratificada de `ggplot`:
 
@@ -199,7 +199,7 @@ knitr::include_graphics("my_images/drake-ggplot.jfif")
 
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Transformaciones con el paquete `dplyr`:
 
@@ -211,7 +211,7 @@ knitr::include_graphics("my_images/drake-ggplot.jfif")
 * ... puede ser usado con `group_by()` que agrupa las observaciones de acuerdo a cierta variable categórica.
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Tipos de variables:
 
@@ -225,7 +225,7 @@ knitr::include_graphics("my_images/drake-ggplot.jfif")
 * `date`: fechas (*dates*) 
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Comparaciones:
 
@@ -249,7 +249,7 @@ c(1, 2, 3) %in% c(2, 4, 6, 8)
 
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Comparaciones:
 
@@ -265,7 +265,7 @@ dplyr::near(sqrt(2)^2, 2)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Operadores lógicos (*Boolean operators*):
 
@@ -279,7 +279,7 @@ Tomado de [r4ds](https://r4ds.had.co.nz/index.html).
 ]
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Operadores lógicos (*Boolean operators*):
 
@@ -295,7 +295,7 @@ Tomado de [r4ds](https://r4ds.had.co.nz/index.html).
   + `!(x | y)` es lo mismo que `!x & !y`
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Datos perdidos (*Missing values*): 
 
@@ -312,7 +312,7 @@ NA / 2
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Datos perdidos (*Missing values*): 
 
@@ -330,7 +330,7 @@ x == y
 # ¡No lo sé!
 ```
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Datos perdidos (*Missing values*): 
 
@@ -344,7 +344,7 @@ sum(x)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Datos perdidos (*Missing values*): 
 
@@ -358,7 +358,7 @@ mean(x, na.rm = T)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (crear)
 
@@ -375,7 +375,7 @@ y/x
 
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (crear)
 
@@ -395,7 +395,7 @@ x == y * (x %/% y) + (x %% y)
 * Logaritmos: `log()`, `log2()`, `log10()`.
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (crear)
 
@@ -410,7 +410,7 @@ lead(z)
 z - lag(z)
 ```
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (crear)
 
@@ -426,7 +426,7 @@ cummean(z)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (resumir)
 
@@ -443,7 +443,7 @@ cummean(z)
 * Medidas de rango: `min()`, `quantile( ... , p)`, `max()`.
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (resumir)
 
@@ -460,7 +460,7 @@ last(x) == x[length(x)]
 
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Funciones útiles (resumir)
 
@@ -477,7 +477,7 @@ mean(x > 0)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Pipes!
 
@@ -497,7 +497,7 @@ knitr::include_graphics("my_images/logo-pipe.png")
 ]]
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Pipes!
 
@@ -520,7 +520,7 @@ knitr::include_graphics("my_images/logo-pipe.png")
 ]]
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ```{r fig:love-tidyverse, echo = FALSE, out.width = "60%", fig.align='center'}
 knitr::include_graphics("my_images/love-tidyverse.jfif")
@@ -531,7 +531,7 @@ knitr::include_graphics("my_images/love-tidyverse.jfif")
 #### Pasamos al **Notebook Transformaciones de Datos**
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
@@ -547,71 +547,71 @@ knitr::include_graphics("my_images/love-tidyverse.jfif")
 * Una parte importante del AED es la limpieza de tus datos (outlieres, errores de formato, `NA`s, etc.).
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Distribuciones para variables categóricas (diagramas de barras)
 
-```{r ej:bar_chart, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut)) + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Distribuciones para variables continuas (histogramas)
 
-```{r ej:hist1, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds) +
   geom_histogram(mapping = aes(x = carat), binwidth = 0.1) + # bins = ceiling(sqrt(nrow(diamonds))) 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Distribuciones para variables continuas (varios histogramas superpuestos)
 
-```{r ej:hist2, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds, mapping = aes(x = carat, colour = cut)) +
   geom_freqpoly(binwidth = 0.1) + 
   theme_light(base_size = 20)
 ```
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Distribuciones para variables continuas (varios histogramas superpuestos)
 
-```{r ej:hist2_smaller, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = (diamonds %>% filter(carat < 3)), mapping = aes(x = carat, colour = cut)) +
   geom_freqpoly(binwidth = 0.1) + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Una variable categórica y una continua
 
-```{r ej:cat_vs_cont, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds, mapping = aes(x = price)) + 
   geom_freqpoly(mapping = aes(colour = cut), binwidth = 500)+ 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
@@ -619,7 +619,7 @@ ggplot(data = diamonds, mapping = aes(x = price)) +
   + Es complicado ver la diferencia entre distribuciones => Usamos boxplots.
 
 --
-```{r fig:expl-boxplot, echo = FALSE, out.width = "60%", fig.align='center'}
+```{r , echo = FALSE, out.width = "60%", fig.align='center'}
 knitr::include_graphics("my_images/eda-boxplot.png")
 ```
 .center[
@@ -627,39 +627,39 @@ Tomado de [r4ds](https://r4ds.had.co.nz/index.html).
 ]
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Una variable categórica y una continua (boxplots)
 
-```{r ej:boxplot, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds, mapping = aes(x = cut, y = price)) +
   geom_boxplot() + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Una variable categórica y una continua (boxplots)
 
-```{r ej:boxplot_reorder, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds, mapping = aes(x = reorder(cut, price, FUN = median), y = price)) +
   geom_boxplot() + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Una variable categórica y una continua (boxplots)
 
-```{r ej:boxplot_flip, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds, mapping = aes(x = reorder(cut, price, FUN = median), y = price)) +
   geom_boxplot() + 
   coord_flip() +
@@ -667,52 +667,52 @@ ggplot(data = diamonds, mapping = aes(x = reorder(cut, price, FUN = median), y =
 ````
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Dos variables categóricas
 
-```{r ej:geom_count, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds) +
   geom_count(mapping = aes(x = cut, y = color)) + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Dos variables categóricas
 
-```{r ej:geom_tile, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = (diamonds %>% count(color, cut)), mapping = aes(x = color, y = cut)) +
   geom_tile(mapping = aes(fill = n)) + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Dos variables continuas
 
-```{r ej:geom_point, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds) + 
   geom_point(mapping = aes(x = carat, y = price), alpha = 0.01, size = 2) + 
   theme_light(base_size = 20)
 ```
 
 ---
-# Hello woRld
+# 1. Hello woRld
 
 ### Análisis Exploratorio de Datos
 
 * Dos variables continuas
 
-```{r ej:geom_point_count, out.width="30%", fig.align='center'}
+```{r , out.width="30%", fig.align='center'}
 ggplot(data = diamonds %>% filter(carat < 3) ) + 
   geom_bin2d(mapping = aes(x = carat, y = price)) + 
   theme_light(base_size = 20)
@@ -726,7 +726,7 @@ class: inverse, center, middle
 
 ---
 
-# *Data wrangling*
+# 2. *Data wrangling*
 
 ```{r fig:wrangle_meme, echo = FALSE, out.width = "80%", fig.align='center'}
 knitr::include_graphics("my_images/wrangler_meme_3.jpg")
@@ -734,7 +734,7 @@ knitr::include_graphics("my_images/wrangler_meme_3.jpg")
 
 ---
 
-# *Data wrangling*
+# 2. *Data wrangling*
 
 ## 2.1 Tipos de datos en **R**
 ## 2.2 Importar datos externos
@@ -1697,7 +1697,7 @@ class: inverse, center, middle
 
 ---
 
-# Programación en R
+# 3. Programación en **R**
 
 ## 3.1 Funciones
 ### 3.1.1 Ejecución condicional
